@@ -1,0 +1,32 @@
+<!-- Header
+================================================== --> 
+{% load static %}
+<header class="col-md-12">
+    <nav>
+            <!-- navigation bar -->
+            <input type="checkbox" id="show-menu" role="button">
+            <label for="show-menu" class="open"><span class="fa fa-bars"></span></label>
+            <label for="show-menu" class="close"><span class="fa fa-times"></label>
+                <ul id="menu">
+                    <li class="active"><a href="{% url 'home' %}#resume">RESUME</a></li>
+                    <li ><a href="{% url 'home' %}#contact">CONTACT</a></li>
+                    <li ><a href="{% url 'lanu' %}">LANU</a></li>
+                    <li ><a href="{% url 'blog' %}">BLOG</a></li>
+                    <li ><a href="{% url 'youtube' %}">YOUTUBE</a></li>
+                    <li ><a href="{% url 'gallery' %}">GALLERY</a></li>
+                    <li ><a href="{% url 'models' %}">MODELS</a></li>
+                    <li ><a href="{% url 'research' %}">RESEARCH</a></li>
+
+                </ul>
+            {% comment %} </div>
+            <div class="col-md-4 col-sm-4 col-xs-8 dynamic">
+                <button class="pull-right site-btn icon hidden-xs">Hire Me <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                <div class="hamburger pull-right hidden-lg hidden-md"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                <div class="hidden-md social-icons pull-right"> 
+                    <a class="in" href="https://www.linkedin.com/in/luke-coburn-b14b991b/"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
+                    <a class="gi" href="https://github.com/lcoburn"><i class="fa fa-github" aria-hidden="true"></i></a> 
+                    <a class="yo" href="https://www.youtube.com/channel/UCXydb2b6l6fzJA2sA-xyHZQ"><i class="fa fa-youtube" aria-hidden="true"></i></a> 
+                </div>
+            </div> {% endcomment %}
+    </nav>
+</header>
