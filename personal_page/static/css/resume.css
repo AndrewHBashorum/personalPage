@@ -1,0 +1,32 @@
+/* Style the unordered list */
+
+
+ul#cv {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Style the list items */
+  ul#cv li {
+	position: relative;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	line-height: 1.5;
+  }
+  
+  /* Hide all bullet points */
+  ul#cv li::before {
+	display: none;
+  }
+  
+  /* Style the list items for nested lists */
+  ul#cv ul li {
+	padding-left: 40px;
+  }
+  
+  /* Add a different bullet point for nested lists */
+  ul#cv ul li::before {
+	content: "\25E6";
+  }
+  

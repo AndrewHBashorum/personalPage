@@ -9,4 +9,5 @@ urlpatterns = [
     path('gallery', views.gallery,name='gallery'),
     path('models', views.models,name='models'),
     path('research', views.research,name='research'),
+    path('download-pdf/', views.download_pdf, name='download-pdf'),
 ]
